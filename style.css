@@ -28,6 +28,11 @@ body {
   margin-bottom: 4rem;
 }
 
+.text1{
+  margin-left: 8rem;
+  margin-right: 8rem
+}
+
 .gallery-item {
   max-width:30%;
   align-items: flex-start;
@@ -36,8 +41,8 @@ body {
 
 
 .normal_container{
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h1{
@@ -134,7 +139,22 @@ p{
 
   footer {
     padding: 2rem;
-    background-color: #F79C19;;
-    color: #8A5406;
+    background-color: #d1e3f1;
+    color: #0f6ab5;
   }
 
+
+  .textcontainer {
+    display: flex;
+    justify-content: space-between; /* Can be changed in the live sample */
+  }
+
+  .row.row-no-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
